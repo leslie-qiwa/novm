@@ -12,11 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//+build i386 amd64
+//go:build i386 || amd64
+// +build i386 amd64
+
 package loader
 
 /*
 #include <asm/types.h>
+#include <asm/e820.h>
 #include <linux/const.h>
 #include <string.h>
 #include <asm/bootparam.h>
@@ -40,9 +43,9 @@ static inline void e820_set_region(
     __u64 size,
     __u8 type) {
 
-    boot->e820_map[index].addr = start;
-    boot->e820_map[index].size = size;
-    boot->e820_map[index].type = type;
+    boot->e820_table[index].addr = start;
+    boot->e820_table[index].size = size;
+    boot->e820_table[index].type = type;
 }
 static inline void set_header(
     struct boot_params* boot,
@@ -64,9 +67,10 @@ static inline void set_header(
 import "C"
 
 import (
+	"unsafe"
+
 	"github.com/leslie-qiwa/novm/src/novmm/machine"
 	"github.com/leslie-qiwa/novm/src/novmm/platform"
-	"unsafe"
 )
 
 func SetupLinuxBootParams(
