@@ -17,7 +17,7 @@ package machine
 import (
 	"encoding/json"
 	"math"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 )
 
 //

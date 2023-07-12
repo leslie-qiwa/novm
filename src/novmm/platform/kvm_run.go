@@ -20,7 +20,7 @@ package platform
 import "C"
 
 import (
-	"novmm/utils"
+	"github.com/leslie-qiwa/novm/src/novmm/utils"
 	"sync"
 	"syscall"
 )

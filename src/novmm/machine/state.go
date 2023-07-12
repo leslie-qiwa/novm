@@ -17,8 +17,8 @@ package machine
 import (
 	"bytes"
 	"log"
-	"novmm/platform"
-	"novmm/utils"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/utils"
 )
 
 type DeviceInfo struct {

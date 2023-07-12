@@ -30,7 +30,7 @@ import (
 	"encoding/json"
 	"log"
 	"math"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 	"sync/atomic"
 	"unsafe"
 )

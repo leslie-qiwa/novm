@@ -15,7 +15,7 @@
 package loader
 
 import (
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 )
 
 type SystemMap interface {

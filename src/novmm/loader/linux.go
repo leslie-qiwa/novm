@@ -17,8 +17,8 @@ package loader
 import (
 	"io/ioutil"
 	"log"
-	"novmm/machine"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/machine"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 	"strconv"
 	"strings"
 )

@@ -64,8 +64,8 @@ static inline void set_header(
 import "C"
 
 import (
-	"novmm/machine"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/machine"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 	"unsafe"
 )
 

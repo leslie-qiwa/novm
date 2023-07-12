@@ -15,7 +15,7 @@
 package machine
 
 import (
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 )
 
 type PioEvent struct {

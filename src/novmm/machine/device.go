@@ -16,7 +16,7 @@ package machine
 
 import (
 	"log"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 	"sync"
 )
 

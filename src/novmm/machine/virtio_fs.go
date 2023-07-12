@@ -16,8 +16,8 @@ package machine
 
 import (
 	"log"
-	"novmm/plan9"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/plan9"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 )
 
 const (

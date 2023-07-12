@@ -17,7 +17,7 @@ package machine
 import (
 	"crypto/rand"
 	"net"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 )
 
 //

@@ -17,8 +17,8 @@ package main
 import (
 	"flag"
 	"log"
-	"noguest/protocol"
-	"noguest/rpc"
+	"github.com/leslie-qiwa/novm/src/noguest/protocol"
+	"github.com/leslie-qiwa/novm/src/noguest/rpc"
 	"os"
 	"os/exec"
 	"syscall"

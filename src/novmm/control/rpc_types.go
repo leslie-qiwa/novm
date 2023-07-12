@@ -15,9 +15,9 @@
 package control
 
 import (
-	"novmm/loader"
-	"novmm/machine"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/loader"
+	"github.com/leslie-qiwa/novm/src/novmm/machine"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 )
 
 //

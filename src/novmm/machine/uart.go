@@ -16,7 +16,7 @@ package machine
 
 import (
 	"math"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 	"os"
 )
 

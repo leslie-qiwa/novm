@@ -17,7 +17,7 @@ package control
 import (
 	"net/rpc"
 	"net/rpc/jsonrpc"
-	"noguest/protocol"
+	"github.com/leslie-qiwa/novm/src/noguest/protocol"
 )
 
 func (control *Control) init() {

@@ -20,7 +20,7 @@ package machine
 import "C"
 
 import (
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 	"unsafe"
 )
 

@@ -16,7 +16,7 @@ package plan9
 
 import (
 	"math"
-	"novmm/platform"
+	"github.com/leslie-qiwa/novm/src/novmm/platform"
 	"path"
 	"syscall"
 )
