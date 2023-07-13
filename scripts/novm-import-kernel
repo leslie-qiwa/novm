@@ -25,4 +25,5 @@ fi
 
 DIRNAME=$(dirname $0)
 URL=$(PATH=$PATH:/sbin:/usr/sbin fakeroot $DIRNAME/novm mkkernel --release=$RELEASE "$@")
+echo "Kernel URL: $URL"
 $DIRNAME/novm getkernel --url $URL
